@@ -35,8 +35,8 @@ vendor/lib/hw/audio.a2dp.blueangel.so
 #vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.8/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32-tree7-wmd.bin
 lib/libcamera_client_mtk.so
 lib64/libcamera_client_mtk.so
-lib64/hw/camera.mt6735.so
-lib/hw/camera.mt6735.so
+lib64/hw/camera.mt6753.so
+lib/hw/camera.mt6753.so
 lib/libcam.camadapter.so
 lib/libcam.camnode.so
 lib/libcam.camshot.so
@@ -172,7 +172,7 @@ lib/libaudiodcrflt.so
 lib/libaudiomtkdcremoval.so
 lib/libaudiosetting.so
 lib/libwebrtc_audio_preprocessing.so
-lib64/hw/audio.primary.mt6735.so
+lib64/hw/audio.primary.mt6753.so
 lib64/libaed.so
 lib/libaed.so
 lib/libtinyalsa.so
@@ -245,9 +245,9 @@ lib/libmnl.so
 
 #Testing
 lib64/hw/memtrack.mt6735.so
-lib64/hw/sensors.mt6735.so
+lib64/hw/sensors.mt6753.so
 #lib/hw/audio.primary.default.so
-lib/hw/audio.primary.mt6735.so
+lib/hw/audio.primary.mt6753.so
 #lib/hw/audio.r_submix.default.so
 #lib/hw/audio.usb.default.so
 #lib/hw/audio_policy.default.so
@@ -255,8 +255,8 @@ lib/hw/audio.primary.mt6735.so
 #lib/hw/bluetooth.default.so
 lib/hw/gps.default.so
 lib/hw/gralloc.default.so
-lib/hw/gralloc.mt6735.so
-lib/hw/hwcomposer.mt6735.so
+lib/hw/gralloc.mt6753.so
+lib/hw/hwcomposer.mt6753.so
 lib/hw/keystore.default.so
 lib/hw/lights.default.so
 lib64/hw/lights.default.so
@@ -374,7 +374,7 @@ lib/libged.so
 lib64/libged.so
 lib/libgpu_aux.so
 lib64/libgpu_aux.so
-lib64/hw/gralloc.mt6735.so
+lib64/hw/gralloc.mt6753.so
 
 #generated 64 bit
 lib64/libEGL.so
@@ -396,7 +396,7 @@ lib/libm4u.so
 lib64/libm4u.so
 lib/libpq_prot.so
 lib64/libpq_prot.so
-lib64/hw/hwcomposer.mt6735.so
+lib64/hw/hwcomposer.mt6753.so
 lib/libbwc.so
 lib64/libbwc.so
 lib/libgui_ext.so

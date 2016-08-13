@@ -1,7 +1,7 @@
 #!/bin/sh
 
 VENDOR=meizu
-DEVICE=meilan2
+DEVICE=meilan note2
 OUTDIR=vendor/$VENDOR/$DEVICE
 MAKEFILE=../../../$OUTDIR/$DEVICE-vendor-blobs.mk
 
